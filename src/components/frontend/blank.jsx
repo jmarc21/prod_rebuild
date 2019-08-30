@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import '../../reset.css'
-// import './header.css'
-// var { Menu_links } = require('./config.js');
+import './login.css'
 
-export default class Affiliations extends Component {
+export default class Login extends Component {
     constructor(props){
         super(props);
         this.state = {}
@@ -11,7 +10,7 @@ export default class Affiliations extends Component {
     render() {
         return (
             <div className='header'>
-                Affiliations admin page
+                login
             </div>
         )
     }

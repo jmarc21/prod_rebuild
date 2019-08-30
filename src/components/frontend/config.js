@@ -11,6 +11,14 @@ module.exports = {
         {
             title: 'Contact',
             route: '/contact'
+        },
+        {
+            title: 'Register',
+            route: '/register'
+        },
+        {
+            title: 'Login',
+            route: '/login'
         }
     ]
 }

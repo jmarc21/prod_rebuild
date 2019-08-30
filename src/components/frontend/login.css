@@ -1,0 +1,21 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+.login-prompt{
+    font-size: 3em;
+    margin-bottom: 1em;
+    color: rgba(0,0,0,0.2);
+}
+.login-next{
+    background-color: #f75454;
+    color: white;
+    padding: .5em 1em;
+    font-size: 1.4em;
+    border-radius: 5px;
+    cursor: pointer;
+}
